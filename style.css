@@ -1,0 +1,165 @@
+body {
+    font-size: small;
+    font-family: Arial, sans-self;
+    background-color: #1e90ff;
+  }
+ h3{
+  margin-left: 78px;
+  margin-top: 100px;
+  color: white;
+  font-family: 'Righteous', cursive;
+  font-size: 18px;
+ }
+ h4{
+  font-size: 20px;
+  color: black;
+  margin-left: 78px;
+  margin-top: 80px;
+  font-display: center;
+  font-family: 'Roboto Condensed', sans-serif;
+ }
+  
+  .phone {
+    height: 440px;
+    margin-top: -220px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 270px;
+    margin-left: -125px;
+    background: #424a56;
+    overflow: hidden;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    -moz-box-shadow: 0 17px 15px -14px rgba(0, 0, 0, 0.55);
+    -webkit-box-shadow: 0 17px 15px -14px rgba(0, 0, 0, 0.55);
+    box-shadow: 0 17px 15px -14px rgba(0, 0, 0, 0.55);
+  }
+
+  .phone .screen {
+    width: 270px;
+    height: 355px;
+    overflow: hidden;
+    position: relative;
+    margin: 20px auto;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .phone .screen .img {
+    width: 270px;
+    height: 355px;
+    float: left;
+    background: #000;
+
+  }
+
+  .title{
+      margin-left: 78px;
+      margin-top: 100px;
+      color: white;
+      font-family: 'Righteous', cursive;
+  }
+.big_element {
+  top: 20px;
+  left: 15px;
+  position: absolute;
+  width: 238px;
+  height: 120px;
+  /* background-color: #82bcf7; */
+}
+.logo{
+    position: absolute;
+    margin-left: 85px;
+    margin-top: 10px;
+    width: 80px;
+    height: 80px;
+    background-image: url(img/speech.svg);
+    background-size: cover;
+    z-index: 2;
+}
+.second_element {
+    top: 150px;
+    left: 0px;
+    position: absolute;
+    width: 270px;
+    height: 195px;
+    /* background-color: #82bcf7; */
+  }
+  #txtInput{
+    margin-left: 46px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #rate{
+    margin-top: 5px;
+    margin-left: 70px;
+  }
+  label{
+    margin-top: 100px;
+    margin-left: 120px;
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .form-group2{
+    top: 100px;
+    left: 0px;
+    position: absolute;
+    width: 270px;
+    height: 195px;
+  }
+  #pitch{
+    margin-top: 5px;
+    margin-left: 70px;
+  }
+
+#btnSpeak{
+  position: absolute;
+    margin-left: 117px;
+    margin-top: 390px;
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/btn.png);
+    background-size: cover;
+    z-index: 2;
+    background-color: transparent;
+    border-radius: 50px;
+    border: none;
+}
+#voiceList{
+  margin-top: 10px;
+  margin-left: 80px;
+  width: 100px;
+  z-index: 2;
+}
+textarea{
+  height: 130px;
+}
+
+.bg{
+  background-color:#D6DBDF  ;
+  top: 50%;
+  left: 10%;
+  width: 79%;
+  height: 600px;
+  box-shadow: gray 2px 2px 4px;
+  border-radius: 20px;
+  margin-top: -320px;
+  position: absolute;
+  margin-left: 0px;
+}
+h1{
+  margin-left: 78px;
+  margin-top: 30px;
+  color: white;
+  font-family: 'Righteous', cursive;
+  font-size: 40px;
+  text-align: center;
+}
